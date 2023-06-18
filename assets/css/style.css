@@ -1,0 +1,58 @@
+
+/* GLOBAL CLASSES */
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .zbackgr {
+    z-index: 0;
+  }
+
+  .textbox {
+    position: absolute;
+    width: 500px;
+    padding: 2%;
+    border-radius: 8px;
+    margin: 5%;
+  }
+
+  /* CUSTOM CLASSES */
+.section1 {
+    padding:5%;
+    padding-bottom: 10%;
+    margin-bottom: 1%;
+}
+
+.mission1 {
+    margin-bottom: 20% ;
+}
+
+#mobilenav-icon {
+    display: none;
+}
+
+.section2 {
+    position: absolute;
+}
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+
+    body {
+      display: block;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+
+    #mobilenav-icon {
+        display: initial;
+    }
+    
+}
